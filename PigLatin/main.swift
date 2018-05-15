@@ -6,21 +6,24 @@
 import Foundation
 
 // INPUT
-// Global variable to use later in program
+// Global variable, tracks how many words we can expect to have to translate to Pig Latin
 var expectedCountOfWordsToTranslate = 3
 
-// Now get the actual number of words that will be translated
+// Write a loop to actually collect the expected count of words to be translated from user
 
 
-// PROCESS
+// PROCESS & OUTPUT
 // Implement the primary logic of the problem here
 // Some output may be given here if you desire
 
-// Example of how to collect multiple input lines
+// Collect the words to be translated
 for counter in 1...expectedCountOfWordsToTranslate {
     
-    // Ask how many pictures in this particular arrangement
+    // Ask user for the word to be translated
     print("Enter word #\(counter):")
+    
+    // Create a variable that has the translated word
+    var translatedWord = ""
     
     // Get the input (use guard-let to guarantee it is not nil)
     // and then print it out
@@ -29,12 +32,7 @@ for counter in 1...expectedCountOfWordsToTranslate {
         continue
     }
     
-    // Now we have the line, we can print it out, analyze it as needed, et cetera
-    print(givenInput)
+    // Replace this logic with the correct logic
+    translatedWord = givenInput
     
 }
-
-// OUTPUT
-// Report results to the user here
-
-
