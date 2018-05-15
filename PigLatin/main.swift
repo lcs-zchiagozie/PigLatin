@@ -7,7 +7,7 @@ import Foundation
 
 // INPUT
 // Global variable, tracks how many words we can expect to have to translate to Pig Latin
-var expectedCountOfWordsToTranslate = 3
+var countOfExpectedWordsToTranslate = 3
 
 // Write a loop to actually collect the expected count of words to be translated from user
 // e.g.: write the rest of the INPUT section
@@ -18,7 +18,7 @@ var expectedCountOfWordsToTranslate = 3
 // Some output may be given here if you desire
 
 // Collect the words to be translated
-for counter in 1...expectedCountOfWordsToTranslate {
+for counter in 1...countOfExpectedWordsToTranslate {
     
     // Ask user for the word to be translated
     print("Enter word #\(counter):")
